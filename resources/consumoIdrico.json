@@ -1,0 +1,91 @@
+{
+  "type" : "STACKED_COLUMNS",
+  "title" : "Consumo idrico dal 30-09-2015 ad oggi",
+  "subtitle" : "Aggiornato al 31/01/2024 11:58:47",
+  "labels" : [ "Metri cubi", "Tempo" ],
+  "series" : [ {
+    "label" : "Consumo bagni",
+    "data" : [ {
+      "quantita" : 375.0,
+      "data" : "2023-01"
+    }, {
+      "quantita" : 2877.35,
+      "data" : "2023-02"
+    }, {
+      "quantita" : 3062.15,
+      "data" : "2023-03"
+    }, {
+      "quantita" : 3295.31,
+      "data" : "2023-04"
+    }, {
+      "quantita" : 3344.3,
+      "data" : "2023-05"
+    }, {
+      "quantita" : 2983.17,
+      "data" : "2023-06"
+    }, {
+      "quantita" : 3062.96,
+      "data" : "2023-07"
+    }, {
+      "quantita" : 3501.96,
+      "data" : "2023-08"
+    }, {
+      "quantita" : 3266.55,
+      "data" : "2023-09"
+    }, {
+      "quantita" : 3505.02,
+      "data" : "2023-10"
+    }, {
+      "quantita" : 3454.08,
+      "data" : "2023-11"
+    }, {
+      "quantita" : 3503.78,
+      "data" : "2023-12"
+    }, {
+      "quantita" : 2974.01,
+      "data" : "2024-01"
+    } ]
+  }, {
+    "label" : "Consumo produzione",
+    "data" : [ {
+      "quantita" : 302.99,
+      "data" : "2023-01"
+    }, {
+      "quantita" : 2823.68,
+      "data" : "2023-02"
+    }, {
+      "quantita" : 3491.89,
+      "data" : "2023-03"
+    }, {
+      "quantita" : 3142.01,
+      "data" : "2023-04"
+    }, {
+      "quantita" : 3482.48,
+      "data" : "2023-05"
+    }, {
+      "quantita" : 3681.83,
+      "data" : "2023-06"
+    }, {
+      "quantita" : 3064.78,
+      "data" : "2023-07"
+    }, {
+      "quantita" : 3690.56,
+      "data" : "2023-08"
+    }, {
+      "quantita" : 3483.92,
+      "data" : "2023-09"
+    }, {
+      "quantita" : 3557.85,
+      "data" : "2023-10"
+    }, {
+      "quantita" : 3150.22,
+      "data" : "2023-11"
+    }, {
+      "quantita" : 3343.9,
+      "data" : "2023-12"
+    }, {
+      "quantita" : 3144.41,
+      "data" : "2024-01"
+    } ]
+  } ]
+}

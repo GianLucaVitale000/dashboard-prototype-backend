@@ -1,0 +1,557 @@
+{
+  "type" : "BASIC_LINE",
+  "title" : "Produzione dal 30-09-2015 ad oggi",
+  "subtitle" : "Aggiornato al 31/01/2024 11:58:00",
+  "labels" : [ "Prodotti", "Tempo" ],
+  "series" : [ {
+    "label" : "Linea produttiva di 'Gorgeous Bronze Shirt'",
+    "data" : [ {
+      "pezziProdotti" : 88,
+      "pezziDifettosi" : 13,
+      "data" : "2023-01"
+    }, {
+      "pezziProdotti" : 1318,
+      "pezziDifettosi" : 92,
+      "data" : "2023-02"
+    }, {
+      "pezziProdotti" : 1445,
+      "pezziDifettosi" : 128,
+      "data" : "2023-03"
+    }, {
+      "pezziProdotti" : 1040,
+      "pezziDifettosi" : 97,
+      "data" : "2023-04"
+    }, {
+      "pezziProdotti" : 1432,
+      "pezziDifettosi" : 106,
+      "data" : "2023-05"
+    }, {
+      "pezziProdotti" : 1203,
+      "pezziDifettosi" : 110,
+      "data" : "2023-06"
+    }, {
+      "pezziProdotti" : 1155,
+      "pezziDifettosi" : 96,
+      "data" : "2023-07"
+    }, {
+      "pezziProdotti" : 1409,
+      "pezziDifettosi" : 113,
+      "data" : "2023-08"
+    }, {
+      "pezziProdotti" : 1220,
+      "pezziDifettosi" : 102,
+      "data" : "2023-09"
+    }, {
+      "pezziProdotti" : 1553,
+      "pezziDifettosi" : 88,
+      "data" : "2023-10"
+    }, {
+      "pezziProdotti" : 1352,
+      "pezziDifettosi" : 103,
+      "data" : "2023-11"
+    }, {
+      "pezziProdotti" : 1265,
+      "pezziDifettosi" : 122,
+      "data" : "2023-12"
+    }, {
+      "pezziProdotti" : 1162,
+      "pezziDifettosi" : 95,
+      "data" : "2024-01"
+    } ]
+  }, {
+    "label" : "Linea produttiva di 'Rustic Leather Bench'",
+    "data" : [ {
+      "pezziProdotti" : 120,
+      "pezziDifettosi" : 7,
+      "data" : "2023-01"
+    }, {
+      "pezziProdotti" : 1217,
+      "pezziDifettosi" : 94,
+      "data" : "2023-02"
+    }, {
+      "pezziProdotti" : 1045,
+      "pezziDifettosi" : 127,
+      "data" : "2023-03"
+    }, {
+      "pezziProdotti" : 1156,
+      "pezziDifettosi" : 66,
+      "data" : "2023-04"
+    }, {
+      "pezziProdotti" : 1165,
+      "pezziDifettosi" : 103,
+      "data" : "2023-05"
+    }, {
+      "pezziProdotti" : 1261,
+      "pezziDifettosi" : 83,
+      "data" : "2023-06"
+    }, {
+      "pezziProdotti" : 1230,
+      "pezziDifettosi" : 111,
+      "data" : "2023-07"
+    }, {
+      "pezziProdotti" : 1143,
+      "pezziDifettosi" : 133,
+      "data" : "2023-08"
+    }, {
+      "pezziProdotti" : 1022,
+      "pezziDifettosi" : 80,
+      "data" : "2023-09"
+    }, {
+      "pezziProdotti" : 1238,
+      "pezziDifettosi" : 92,
+      "data" : "2023-10"
+    }, {
+      "pezziProdotti" : 1244,
+      "pezziDifettosi" : 98,
+      "data" : "2023-11"
+    }, {
+      "pezziProdotti" : 1182,
+      "pezziDifettosi" : 130,
+      "data" : "2023-12"
+    }, {
+      "pezziProdotti" : 1083,
+      "pezziDifettosi" : 111,
+      "data" : "2024-01"
+    } ]
+  }, {
+    "label" : "Linea produttiva di 'Ergonomic Granite Plate'",
+    "data" : [ {
+      "pezziProdotti" : 128,
+      "pezziDifettosi" : 9,
+      "data" : "2023-01"
+    }, {
+      "pezziProdotti" : 1204,
+      "pezziDifettosi" : 84,
+      "data" : "2023-02"
+    }, {
+      "pezziProdotti" : 1214,
+      "pezziDifettosi" : 111,
+      "data" : "2023-03"
+    }, {
+      "pezziProdotti" : 966,
+      "pezziDifettosi" : 86,
+      "data" : "2023-04"
+    }, {
+      "pezziProdotti" : 1139,
+      "pezziDifettosi" : 98,
+      "data" : "2023-05"
+    }, {
+      "pezziProdotti" : 1112,
+      "pezziDifettosi" : 101,
+      "data" : "2023-06"
+    }, {
+      "pezziProdotti" : 1086,
+      "pezziDifettosi" : 94,
+      "data" : "2023-07"
+    }, {
+      "pezziProdotti" : 1351,
+      "pezziDifettosi" : 102,
+      "data" : "2023-08"
+    }, {
+      "pezziProdotti" : 1398,
+      "pezziDifettosi" : 107,
+      "data" : "2023-09"
+    }, {
+      "pezziProdotti" : 1358,
+      "pezziDifettosi" : 129,
+      "data" : "2023-10"
+    }, {
+      "pezziProdotti" : 1232,
+      "pezziDifettosi" : 101,
+      "data" : "2023-11"
+    }, {
+      "pezziProdotti" : 1095,
+      "pezziDifettosi" : 92,
+      "data" : "2023-12"
+    }, {
+      "pezziProdotti" : 1036,
+      "pezziDifettosi" : 73,
+      "data" : "2024-01"
+    } ]
+  }, {
+    "label" : "Linea produttiva di 'Small Paper Knife'",
+    "data" : [ {
+      "pezziProdotti" : 173,
+      "pezziDifettosi" : 12,
+      "data" : "2023-01"
+    }, {
+      "pezziProdotti" : 993,
+      "pezziDifettosi" : 87,
+      "data" : "2023-02"
+    }, {
+      "pezziProdotti" : 1305,
+      "pezziDifettosi" : 94,
+      "data" : "2023-03"
+    }, {
+      "pezziProdotti" : 1200,
+      "pezziDifettosi" : 81,
+      "data" : "2023-04"
+    }, {
+      "pezziProdotti" : 1337,
+      "pezziDifettosi" : 114,
+      "data" : "2023-05"
+    }, {
+      "pezziProdotti" : 1190,
+      "pezziDifettosi" : 104,
+      "data" : "2023-06"
+    }, {
+      "pezziProdotti" : 1209,
+      "pezziDifettosi" : 80,
+      "data" : "2023-07"
+    }, {
+      "pezziProdotti" : 1313,
+      "pezziDifettosi" : 113,
+      "data" : "2023-08"
+    }, {
+      "pezziProdotti" : 1196,
+      "pezziDifettosi" : 98,
+      "data" : "2023-09"
+    }, {
+      "pezziProdotti" : 1241,
+      "pezziDifettosi" : 112,
+      "data" : "2023-10"
+    }, {
+      "pezziProdotti" : 1383,
+      "pezziDifettosi" : 106,
+      "data" : "2023-11"
+    }, {
+      "pezziProdotti" : 1010,
+      "pezziDifettosi" : 115,
+      "data" : "2023-12"
+    }, {
+      "pezziProdotti" : 1179,
+      "pezziDifettosi" : 76,
+      "data" : "2024-01"
+    } ]
+  }, {
+    "label" : "Linea produttiva di 'Durable Bronze Wallet'",
+    "data" : [ {
+      "pezziProdotti" : 135,
+      "pezziDifettosi" : 7,
+      "data" : "2023-01"
+    }, {
+      "pezziProdotti" : 883,
+      "pezziDifettosi" : 80,
+      "data" : "2023-02"
+    }, {
+      "pezziProdotti" : 1320,
+      "pezziDifettosi" : 114,
+      "data" : "2023-03"
+    }, {
+      "pezziProdotti" : 1083,
+      "pezziDifettosi" : 95,
+      "data" : "2023-04"
+    }, {
+      "pezziProdotti" : 1170,
+      "pezziDifettosi" : 90,
+      "data" : "2023-05"
+    }, {
+      "pezziProdotti" : 1431,
+      "pezziDifettosi" : 116,
+      "data" : "2023-06"
+    }, {
+      "pezziProdotti" : 1108,
+      "pezziDifettosi" : 80,
+      "data" : "2023-07"
+    }, {
+      "pezziProdotti" : 935,
+      "pezziDifettosi" : 106,
+      "data" : "2023-08"
+    }, {
+      "pezziProdotti" : 1076,
+      "pezziDifettosi" : 81,
+      "data" : "2023-09"
+    }, {
+      "pezziProdotti" : 1270,
+      "pezziDifettosi" : 73,
+      "data" : "2023-10"
+    }, {
+      "pezziProdotti" : 965,
+      "pezziDifettosi" : 96,
+      "data" : "2023-11"
+    }, {
+      "pezziProdotti" : 1153,
+      "pezziDifettosi" : 78,
+      "data" : "2023-12"
+    }, {
+      "pezziProdotti" : 1264,
+      "pezziDifettosi" : 91,
+      "data" : "2024-01"
+    } ]
+  }, {
+    "label" : "Linea produttiva di 'Durable Linen Pants'",
+    "data" : [ {
+      "pezziProdotti" : 124,
+      "pezziDifettosi" : 12,
+      "data" : "2023-01"
+    }, {
+      "pezziProdotti" : 1194,
+      "pezziDifettosi" : 101,
+      "data" : "2023-02"
+    }, {
+      "pezziProdotti" : 1176,
+      "pezziDifettosi" : 123,
+      "data" : "2023-03"
+    }, {
+      "pezziProdotti" : 1096,
+      "pezziDifettosi" : 95,
+      "data" : "2023-04"
+    }, {
+      "pezziProdotti" : 1138,
+      "pezziDifettosi" : 116,
+      "data" : "2023-05"
+    }, {
+      "pezziProdotti" : 1112,
+      "pezziDifettosi" : 93,
+      "data" : "2023-06"
+    }, {
+      "pezziProdotti" : 1295,
+      "pezziDifettosi" : 111,
+      "data" : "2023-07"
+    }, {
+      "pezziProdotti" : 1178,
+      "pezziDifettosi" : 98,
+      "data" : "2023-08"
+    }, {
+      "pezziProdotti" : 1195,
+      "pezziDifettosi" : 109,
+      "data" : "2023-09"
+    }, {
+      "pezziProdotti" : 1061,
+      "pezziDifettosi" : 85,
+      "data" : "2023-10"
+    }, {
+      "pezziProdotti" : 1128,
+      "pezziDifettosi" : 102,
+      "data" : "2023-11"
+    }, {
+      "pezziProdotti" : 1192,
+      "pezziDifettosi" : 79,
+      "data" : "2023-12"
+    }, {
+      "pezziProdotti" : 1271,
+      "pezziDifettosi" : 83,
+      "data" : "2024-01"
+    } ]
+  }, {
+    "label" : "Linea produttiva di 'Gorgeous Granite Computer'",
+    "data" : [ {
+      "pezziProdotti" : 38,
+      "pezziDifettosi" : 7,
+      "data" : "2023-01"
+    }, {
+      "pezziProdotti" : 970,
+      "pezziDifettosi" : 94,
+      "data" : "2023-02"
+    }, {
+      "pezziProdotti" : 1216,
+      "pezziDifettosi" : 82,
+      "data" : "2023-03"
+    }, {
+      "pezziProdotti" : 1161,
+      "pezziDifettosi" : 67,
+      "data" : "2023-04"
+    }, {
+      "pezziProdotti" : 1319,
+      "pezziDifettosi" : 125,
+      "data" : "2023-05"
+    }, {
+      "pezziProdotti" : 1243,
+      "pezziDifettosi" : 107,
+      "data" : "2023-06"
+    }, {
+      "pezziProdotti" : 910,
+      "pezziDifettosi" : 85,
+      "data" : "2023-07"
+    }, {
+      "pezziProdotti" : 1069,
+      "pezziDifettosi" : 88,
+      "data" : "2023-08"
+    }, {
+      "pezziProdotti" : 1077,
+      "pezziDifettosi" : 68,
+      "data" : "2023-09"
+    }, {
+      "pezziProdotti" : 1111,
+      "pezziDifettosi" : 90,
+      "data" : "2023-10"
+    }, {
+      "pezziProdotti" : 1224,
+      "pezziDifettosi" : 98,
+      "data" : "2023-11"
+    }, {
+      "pezziProdotti" : 1115,
+      "pezziDifettosi" : 73,
+      "data" : "2023-12"
+    }, {
+      "pezziProdotti" : 1184,
+      "pezziDifettosi" : 112,
+      "data" : "2024-01"
+    } ]
+  }, {
+    "label" : "Linea produttiva di 'Small Rubber Chair'",
+    "data" : [ {
+      "pezziProdotti" : 123,
+      "pezziDifettosi" : 4,
+      "data" : "2023-01"
+    }, {
+      "pezziProdotti" : 1075,
+      "pezziDifettosi" : 122,
+      "data" : "2023-02"
+    }, {
+      "pezziProdotti" : 1287,
+      "pezziDifettosi" : 80,
+      "data" : "2023-03"
+    }, {
+      "pezziProdotti" : 980,
+      "pezziDifettosi" : 82,
+      "data" : "2023-04"
+    }, {
+      "pezziProdotti" : 1307,
+      "pezziDifettosi" : 101,
+      "data" : "2023-05"
+    }, {
+      "pezziProdotti" : 981,
+      "pezziDifettosi" : 98,
+      "data" : "2023-06"
+    }, {
+      "pezziProdotti" : 1007,
+      "pezziDifettosi" : 71,
+      "data" : "2023-07"
+    }, {
+      "pezziProdotti" : 1225,
+      "pezziDifettosi" : 114,
+      "data" : "2023-08"
+    }, {
+      "pezziProdotti" : 1116,
+      "pezziDifettosi" : 109,
+      "data" : "2023-09"
+    }, {
+      "pezziProdotti" : 1446,
+      "pezziDifettosi" : 101,
+      "data" : "2023-10"
+    }, {
+      "pezziProdotti" : 1358,
+      "pezziDifettosi" : 97,
+      "data" : "2023-11"
+    }, {
+      "pezziProdotti" : 1187,
+      "pezziDifettosi" : 83,
+      "data" : "2023-12"
+    }, {
+      "pezziProdotti" : 1171,
+      "pezziDifettosi" : 87,
+      "data" : "2024-01"
+    } ]
+  }, {
+    "label" : "Linea produttiva di 'Awesome Steel Shirt'",
+    "data" : [ {
+      "pezziProdotti" : 131,
+      "pezziDifettosi" : 7,
+      "data" : "2023-01"
+    }, {
+      "pezziProdotti" : 1026,
+      "pezziDifettosi" : 80,
+      "data" : "2023-02"
+    }, {
+      "pezziProdotti" : 1169,
+      "pezziDifettosi" : 106,
+      "data" : "2023-03"
+    }, {
+      "pezziProdotti" : 1169,
+      "pezziDifettosi" : 76,
+      "data" : "2023-04"
+    }, {
+      "pezziProdotti" : 1200,
+      "pezziDifettosi" : 100,
+      "data" : "2023-05"
+    }, {
+      "pezziProdotti" : 1030,
+      "pezziDifettosi" : 103,
+      "data" : "2023-06"
+    }, {
+      "pezziProdotti" : 1287,
+      "pezziDifettosi" : 82,
+      "data" : "2023-07"
+    }, {
+      "pezziProdotti" : 1289,
+      "pezziDifettosi" : 127,
+      "data" : "2023-08"
+    }, {
+      "pezziProdotti" : 974,
+      "pezziDifettosi" : 55,
+      "data" : "2023-09"
+    }, {
+      "pezziProdotti" : 1136,
+      "pezziDifettosi" : 103,
+      "data" : "2023-10"
+    }, {
+      "pezziProdotti" : 1079,
+      "pezziDifettosi" : 79,
+      "data" : "2023-11"
+    }, {
+      "pezziProdotti" : 1030,
+      "pezziDifettosi" : 111,
+      "data" : "2023-12"
+    }, {
+      "pezziProdotti" : 973,
+      "pezziDifettosi" : 99,
+      "data" : "2024-01"
+    } ]
+  }, {
+    "label" : "Linea produttiva di 'Fantastic Bronze Wallet'",
+    "data" : [ {
+      "pezziProdotti" : 158,
+      "pezziDifettosi" : 6,
+      "data" : "2023-01"
+    }, {
+      "pezziProdotti" : 1257,
+      "pezziDifettosi" : 81,
+      "data" : "2023-02"
+    }, {
+      "pezziProdotti" : 1106,
+      "pezziDifettosi" : 119,
+      "data" : "2023-03"
+    }, {
+      "pezziProdotti" : 1060,
+      "pezziDifettosi" : 73,
+      "data" : "2023-04"
+    }, {
+      "pezziProdotti" : 932,
+      "pezziDifettosi" : 101,
+      "data" : "2023-05"
+    }, {
+      "pezziProdotti" : 1087,
+      "pezziDifettosi" : 98,
+      "data" : "2023-06"
+    }, {
+      "pezziProdotti" : 1027,
+      "pezziDifettosi" : 78,
+      "data" : "2023-07"
+    }, {
+      "pezziProdotti" : 1284,
+      "pezziDifettosi" : 100,
+      "data" : "2023-08"
+    }, {
+      "pezziProdotti" : 1072,
+      "pezziDifettosi" : 118,
+      "data" : "2023-09"
+    }, {
+      "pezziProdotti" : 1133,
+      "pezziDifettosi" : 103,
+      "data" : "2023-10"
+    }, {
+      "pezziProdotti" : 1149,
+      "pezziDifettosi" : 97,
+      "data" : "2023-11"
+    }, {
+      "pezziProdotti" : 1135,
+      "pezziDifettosi" : 109,
+      "data" : "2023-12"
+    }, {
+      "pezziProdotti" : 1228,
+      "pezziDifettosi" : 104,
+      "data" : "2024-01"
+    } ]
+  } ]
+}

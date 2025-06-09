@@ -1,0 +1,91 @@
+{
+  "type" : "DUAL_AXIS",
+  "title" : "Fatturato e costi di smaltimento rifiuti dal 30-09-2015 ad oggi",
+  "subtitle" : "Aggiornato al 31/01/2024 11:58:32",
+  "labels" : [ "Euro", "Tempo" ],
+  "series" : [ {
+    "label" : "Fatturato",
+    "data" : [ {
+      "importo" : 68185.52,
+      "data" : "2023-01"
+    }, {
+      "importo" : 597151.36,
+      "data" : "2023-02"
+    }, {
+      "importo" : 646455.33,
+      "data" : "2023-03"
+    }, {
+      "importo" : 587200.91,
+      "data" : "2023-04"
+    }, {
+      "importo" : 637710.94,
+      "data" : "2023-05"
+    }, {
+      "importo" : 627245.56,
+      "data" : "2023-06"
+    }, {
+      "importo" : 602389.71,
+      "data" : "2023-07"
+    }, {
+      "importo" : 654083.28,
+      "data" : "2023-08"
+    }, {
+      "importo" : 624678.13,
+      "data" : "2023-09"
+    }, {
+      "importo" : 656410.29,
+      "data" : "2023-10"
+    }, {
+      "importo" : 656126.32,
+      "data" : "2023-11"
+    }, {
+      "importo" : 600059.59,
+      "data" : "2023-12"
+    }, {
+      "importo" : 623084.91,
+      "data" : "2024-01"
+    } ]
+  }, {
+    "label" : "Costo smaltimento",
+    "data" : [ {
+      "importo" : 2460.50,
+      "data" : "2023-01"
+    }, {
+      "importo" : 81070.66,
+      "data" : "2023-02"
+    }, {
+      "importo" : 85880.90,
+      "data" : "2023-03"
+    }, {
+      "importo" : 82228.25,
+      "data" : "2023-04"
+    }, {
+      "importo" : 83607.11,
+      "data" : "2023-05"
+    }, {
+      "importo" : 87161.94,
+      "data" : "2023-06"
+    }, {
+      "importo" : 85952.55,
+      "data" : "2023-07"
+    }, {
+      "importo" : 84574.25,
+      "data" : "2023-08"
+    }, {
+      "importo" : 81896.20,
+      "data" : "2023-09"
+    }, {
+      "importo" : 80713.99,
+      "data" : "2023-10"
+    }, {
+      "importo" : 83836.51,
+      "data" : "2023-11"
+    }, {
+      "importo" : 86242.20,
+      "data" : "2023-12"
+    }, {
+      "importo" : 79294.30,
+      "data" : "2024-01"
+    } ]
+  } ]
+}

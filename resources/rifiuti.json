@@ -1,0 +1,46 @@
+{
+  "type" : "PIE",
+  "title" : "Rifiuti prodotti dal 30-09-2015 ad oggi",
+  "subtitle" : "Aggiornato al 31/01/2024 11:59:08",
+  "labels" : [ "Quintali", "Tempo" ],
+  "series" : [ {
+    "label" : "Rifiuti",
+    "data" : [ {
+      "quantita" : 948.3,
+      "percentuale" : 11.067669,
+      "tipo" : "CARTA"
+    }, {
+      "quantita" : 939.71,
+      "percentuale" : 10.967414,
+      "tipo" : "CARTONE"
+    }, {
+      "quantita" : 989.02,
+      "percentuale" : 11.542914,
+      "tipo" : "PLASTICA"
+    }, {
+      "quantita" : 969.67,
+      "percentuale" : 11.31708,
+      "tipo" : "IMBALLAGGIO"
+    }, {
+      "quantita" : 944.37,
+      "percentuale" : 11.021801,
+      "tipo" : "LEGNO"
+    }, {
+      "quantita" : 965.2,
+      "percentuale" : 11.26491,
+      "tipo" : "VETRO"
+    }, {
+      "quantita" : 923.37,
+      "percentuale" : 10.776709,
+      "tipo" : "POLISTIROLO"
+    }, {
+      "quantita" : 923.96,
+      "percentuale" : 10.783595,
+      "tipo" : "VERNICE"
+    }, {
+      "quantita" : 964.6,
+      "percentuale" : 11.257907,
+      "tipo" : "INDIFFERENZIATO"
+    } ]
+  } ]
+}

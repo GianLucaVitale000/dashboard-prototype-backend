@@ -1,0 +1,40 @@
+{
+  "type" : "TABLE",
+  "title" : "Elenco prodotti",
+  "subtitle" : "Aggiornato al 31/01/2024 11:57:32",
+  "labels" : [ "Nome", "Prezzo di vendita" ],
+  "series" : [ {
+    "label" : "Anagrafica Prodotti",
+    "data" : [ {
+      "nome" : "Small Rubber Chair",
+      "prezzo" : 29.41
+    }, {
+      "nome" : "Small Paper Knife",
+      "prezzo" : 96.77
+    }, {
+      "nome" : "Rustic Leather Bench",
+      "prezzo" : 62.09
+    }, {
+      "nome" : "Gorgeous Granite Computer",
+      "prezzo" : 65.59
+    }, {
+      "nome" : "Gorgeous Bronze Shirt",
+      "prezzo" : 6.84
+    }, {
+      "nome" : "Fantastic Bronze Wallet",
+      "prezzo" : 67.59
+    }, {
+      "nome" : "Ergonomic Granite Plate",
+      "prezzo" : 95.00
+    }, {
+      "nome" : "Durable Linen Pants",
+      "prezzo" : 67.52
+    }, {
+      "nome" : "Durable Bronze Wallet",
+      "prezzo" : 35.90
+    }, {
+      "nome" : "Awesome Steel Shirt",
+      "prezzo" : 9.34
+    } ]
+  } ]
+}
