@@ -18,7 +18,6 @@ public class RestApplication extends Application {
 		classes.add(JacksonConfiguration.class);
 		classes.add(HeadersFilter.class);
 		classes.add(InvalidDataExceptionMapper.class);
-		classes.add(CorsOptionsHandler.class);
 
 		BaseDao.initFactory("DefaultPersistenceUnit");
 
