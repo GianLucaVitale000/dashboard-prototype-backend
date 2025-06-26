@@ -44,17 +44,50 @@ public class ChartManager {
         ChartDto res = new ChartDto(ChartDto.ChartType.BASIC_LINE);
 
         LocalDate productionLimitDate = LocalDate.now().minusMonths(numMonths);
-        res.setTitle("Produzione dal " + DateTimeFormatter.ofPattern("dd-MM-yyyy").format(productionLimitDate) + " ad oggi");
+        res.setTitle("Produzione e scarti dal " + DateTimeFormatter.ofPattern("dd-MM-yyyy").format(productionLimitDate) + " ad oggi");
         res.setSubtitle("Aggiornato al " + LocalDateTime.now().format(DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss")));
-        res.getLabels().addAll(Arrays.asList("Prodotti", "Tempo"));
+        res.getLabels().addAll(Arrays.asList("Quantità", "Tempo"));
 
         LineaProduttivaDao lineaProduttivaDao = new LineaProduttivaDao();
-        for (LineaProduttiva linea : lineaProduttivaDao.getAll(LineaProduttiva.class)) {
-            ChartSerieDto serie = new ChartSerieDto();
-            serie.setLabel(linea.getNome());
-            serie.getData().addAll(new ProduzioneDao().produzione(linea.getId(), productionLimitDate));
+        List<LineaProduttiva> linee = lineaProduttivaDao.getAll(LineaProduttiva.class);
 
-            res.getSeries().add(serie);
+        if (linee.isEmpty()) {
+            System.out.println("Attenzione: nessuna linea produttiva trovata");
+        }
+
+        boolean datiAggiunti = false;
+
+        for (LineaProduttiva linea : linee) {
+            ProduzioneDao produzioneDao = new ProduzioneDao();
+            List<ProduzioneDto> datiProduzione = produzioneDao.produzione(linea.getId(), productionLimitDate);
+
+            if (datiProduzione.isEmpty()) {
+                System.out.println("Attenzione: nessun dato di produzione trovato per la linea " + linea.getNome());
+            } else {
+                // Serie per la produzione
+                ChartSerieDto serieProduzione = new ChartSerieDto();
+                serieProduzione.setLabel("Produzione " + linea.getNome());
+                serieProduzione.getData().addAll(datiProduzione);
+                res.getSeries().add(serieProduzione);
+
+                // Serie per gli scarti
+                ChartSerieDto serieScarti = new ChartSerieDto();
+                serieScarti.setLabel("Scarti " + linea.getNome());
+
+                // Trasformo i dati per mostrare solo gli scarti
+                List<ProduzioneDto> datiScarti = datiProduzione.stream()
+                        .map(dto -> new ProduzioneDto(dto.getPezziDifettosi(), 0L, dto.getData()))
+                                .toList();
+
+                serieScarti.getData().addAll(datiScarti);
+                res.getSeries().add(serieScarti);
+
+                datiAggiunti = true;
+            }
+        }
+
+        if (!datiAggiunti) {
+            System.out.println("Attenzione: nessun dato di produzione disponibile per il periodo selezionato");
         }
 
         return res;
@@ -137,13 +170,23 @@ public class ChartManager {
 
         List<RifiutoDto> rifiuti = new SmaltimentoRifiutoDao().rifiuti(limitDate);
 
+        // Controllo se la lista è vuota
+        if (rifiuti.isEmpty()) {
+            System.out.println("Attenzione: nessun dato di rifiuti trovato dal " + limitDate + " ad oggi");
+        }
+
         float totale = 0.0f;
         for (RifiutoDto rifiuto : rifiuti) {
             totale += rifiuto.getQuantita();
         }
 
-        for (RifiutoDto rifiuto : rifiuti) {
-            rifiuto.setPercentuale(rifiuto.getQuantita() * 100 / totale);
+        // Protezione dalla divisione per zero
+        if (totale > 0) {
+            for (RifiutoDto rifiuto : rifiuti) {
+                rifiuto.setPercentuale(rifiuto.getQuantita() * 100 / totale);
+            }
+        } else {
+            System.out.println("Attenzione: il totale dei rifiuti è zero");
         }
 
         ChartSerieDto serie = new ChartSerieDto();

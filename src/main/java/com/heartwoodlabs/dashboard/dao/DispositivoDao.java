@@ -11,7 +11,7 @@ public class DispositivoDao extends BaseDao {
 				"from " + Dispositivo.class.getName() + " d " +
 				"where d.tipo = :tipo ";
 		//@formatter:on
-		return entityManager.createQuery(query)
+		return entityManager.createQuery(query, Dispositivo.class)
 				.setParameter("tipo", tipo)
 				.getResultList();
 	}

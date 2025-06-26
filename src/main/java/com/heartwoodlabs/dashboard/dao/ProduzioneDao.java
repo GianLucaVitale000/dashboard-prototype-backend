@@ -18,7 +18,7 @@ public class ProduzioneDao extends BaseDao {
 				"group by date_format(p.data,'%Y-%m') " +
 				"order by 3";
 		//@formatter:on
-		return entityManager.createQuery(query)
+		return entityManager.createQuery(query, ProduzioneDto.class)
 				.setParameter("lineaId", lineaId)
 				.setParameter("productionLimitDate", productionLimitDate)
 				.getResultList();
@@ -34,7 +34,7 @@ public class ProduzioneDao extends BaseDao {
 				"group by date_format(p.data,'%Y-%m') " +
 				"order by 2";
 		//@formatter:on
-		return entityManager.createQuery(query)
+		return entityManager.createQuery(query, FatturatoDto.class)
 				.setParameter("productionLimitDate", productionLimitDate)
 				.getResultList();
 	}

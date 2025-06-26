@@ -17,10 +17,18 @@ public class RestApplication extends Application {
 		classes.add(ProdottoResource.class);
 		classes.add(JacksonConfiguration.class);
 		classes.add(HeadersFilter.class);
+		classes.add(CORSRequestFilter.class);
 		classes.add(InvalidDataExceptionMapper.class);
 
 		BaseDao.initFactory("DefaultPersistenceUnit");
 
 		return classes;
+	}
+
+	@Override
+	public Set<Object> getSingletons() {
+		Set<Object> singletons = new HashSet<>();
+		singletons.add(new HeadersFilter());
+		return singletons;
 	}
 }
